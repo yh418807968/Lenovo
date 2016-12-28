@@ -1,4 +1,4 @@
-// JavaScript Document
+
 $(function() {
 	//定义下拉菜单函数
 	var dropDown = (function() {
