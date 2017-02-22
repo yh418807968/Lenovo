@@ -1,4 +1,4 @@
-
+// JavaScript Document
 (function($) {
 		$.fn.banner = function(options) {
 				var defaultVal = {
@@ -8,7 +8,7 @@
 					imgNum: "4",
 					speed:"2000",
 					prev:"#prev",
-					next:"#next"//传入左右箭头
+					next:"#next"//传入左右箭头的dom
 				};
 
 				var obj = $.extend(defaultVal, options);
